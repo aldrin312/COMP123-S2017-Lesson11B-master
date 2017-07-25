@@ -80,6 +80,9 @@ namespace COMP123_S2017_Lesson11B
             return outputString;
         }
 
+		/// <summary>
+		/// uses the fisher-yates like algorithm
+		/// </summary>
 		public void Shuffle()
 		{
 			int firstCard;
