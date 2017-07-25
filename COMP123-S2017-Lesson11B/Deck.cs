@@ -71,10 +71,12 @@ namespace COMP123_S2017_Lesson11B
         public override string ToString()
         {
             string outputString = "";
-
+			int i =1;
             foreach (Card card in this)
             {
-                outputString += "The " + card.Face + " of " + card.Suit + "\n";
+
+                outputString += i+ " The " + card.Face + " of " + card.Suit + "\n";
+				i++;
             }
 
             return outputString;
@@ -90,14 +92,14 @@ namespace COMP123_S2017_Lesson11B
 			Card tempCard;
 			for (int card = 0; card < this.Count; card++)
 			{
-				firstCard = this.Random.Next(0, 52);
-				secondCard = this.Random.Next(0, 52);
-
+				firstCard = this.Random.Next(0, this.Count);
+				secondCard = this.Random.Next(0, this.Count);
 				tempCard = (Card)this[secondCard].Clone();
-				this[secondCard].Face = this[firstCard].Face;
-				this[secondCard].Suit = this[firstCard].Suit;
-				this[firstCard].Face = tempCard.Face;
-				this[firstCard].Suit = tempCard.Suit;
+				Card.Overwrite(this[secondCard], this[firstCard]);
+				Card.Overwrite(this[firstCard], tempCard);
+
+				
+			
 			}
 		}
     }
