@@ -13,7 +13,7 @@ using System.Text;
 
 namespace COMP123_S2017_Lesson11B
 {
-    public class Deck : List<Card>
+    public class Deck : CardList
     {
 		// PRIVATE INSTANCE VARIABLES
 		private Random _random;
@@ -30,13 +30,7 @@ namespace COMP123_S2017_Lesson11B
         // PUBLIC PROPERTIES
 
         // CONSTRUCTOR
-        /// <summary>
-        /// This is the main constructor.
-        /// </summary>
-        public Deck()
-        {
-            this._initialize();
-        }
+        
 
         // PRIVATE METHODS
 
@@ -44,7 +38,7 @@ namespace COMP123_S2017_Lesson11B
         /// This is the Initialize method it sets values for private variables
         /// and public properties as well as other class objects.
         /// </summary>
-        private void _initialize()
+        protected override void _initialize()
         {
 			//initialize the pseudo random number generator
 

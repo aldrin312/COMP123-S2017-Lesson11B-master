@@ -3,15 +3,23 @@
   <Class Name="COMP123_S2017_Lesson11B.Card" Collapsed="true">
     <Position X="4.25" Y="0.5" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <HashCode>AAAAAABAAAAAAACAAAAABAgAAAAAAAAAAAAAAAAAgBA=</HashCode>
       <FileName>Card.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="COMP123_S2017_Lesson11B.Deck">
+    <Position X="0.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAAAAAAAAABAAAAAAAAAAAEAE=</HashCode>
+      <FileName>Deck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="COMP123_S2017_Lesson11B.CardList">
     <Position X="0.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Deck.cs</FileName>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CardList.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="COMP123_S2017_Lesson11B.Suit" Collapsed="true">
