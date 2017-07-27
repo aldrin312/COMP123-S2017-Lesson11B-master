@@ -18,8 +18,7 @@ namespace COMP123_S2017_Lesson11B
         static void Main(string[] args)
         {
             Deck deck = new Deck();
-			Console.WriteLine("Original Deck");
-			Console.WriteLine("=====================");
+
             Console.WriteLine(deck.ToString());
 			Console.WriteLine();
 			Console.WriteLine("Shuffled Deck");

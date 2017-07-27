@@ -64,7 +64,10 @@ namespace COMP123_S2017_Lesson11B
         /// </returns>
         public override string ToString()
         {
+			
             string outputString = "";
+			outputString += "Deck Contains " + this.Count + "\n";
+			outputString+= "=========================================== \n";
 			int i =1;
             foreach (Card card in this)
             {
@@ -95,6 +98,17 @@ namespace COMP123_S2017_Lesson11B
 				
 			
 			}
+		}
+		/// <summary>
+		/// this method returns the top card of the deck
+		/// </summary>
+		/// <returns></returns>
+		public Card Deal1()
+		{
+			Card topCard = this[0];
+			this.RemoveAt(0); // remove the top card from the deck
+
+			return topCard;
 		}
     }
 }
