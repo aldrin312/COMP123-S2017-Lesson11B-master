@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Aldrin Fernandez
  * Date: July 25, 2017
  * Description: This is the Deck class
  * It inherits from the List generic and uses Card as the base type
@@ -108,7 +109,30 @@ namespace COMP123_S2017_Lesson11B
 			Card topCard = this[0];
 			this.RemoveAt(0); // remove the top card from the deck
 
+			//for testing only
+			//Console.WriteLine("Dealt 1 Card - Size of Deck: " + this.Count);
 			return topCard;
 		}
+
+
+		/// <summary>
+		/// this method returns the top 5 cards from the deck and returns a hand
+		/// </summary>
+		/// <returns></returns>
+		public Hand Deal5()
+		{
+			Hand hand = new Hand();
+			hand.Add(this.Deal1());
+			hand.Add(this.Deal1());
+			hand.Add(this.Deal1());
+			hand.Add(this.Deal1());
+			hand.Add(this.Deal1());
+
+			Console.WriteLine(hand.ToString());
+			return hand;
+
+		}
+
+
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Aldrin Fernandez
  * Date: July 25, 2017
  * Description: This is the Suit enum
  * Version: 0.1 - Created the Suit enum

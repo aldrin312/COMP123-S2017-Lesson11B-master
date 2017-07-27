@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Linq;
+/*
+ * Name: Aldrin Fernandez
+ * Date: July 25, 2017
+ * Description: This is the abstract card list super class
+ * Version: 0.3 - refactor to exxtend the abstract class
+ */
 
 namespace COMP123_S2017_Lesson11B
 {

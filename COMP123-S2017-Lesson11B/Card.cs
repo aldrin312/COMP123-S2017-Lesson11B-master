@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Aldrin Fernandez
  * Date: July 25, 2017
  * Description: This is the Card Class
  * Version: 0.3 - Added the overwrite method
